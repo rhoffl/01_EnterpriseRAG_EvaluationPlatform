@@ -1,0 +1,5 @@
+Commercial Drone Test Policy
+
+The remote pilot must complete a preflight inspection before every operation.
+Flight records must be retained for three years.
+The aircraft must comply with applicable FAA Remote ID requirements.

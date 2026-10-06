@@ -1,0 +1,3 @@
+{"question":"How long are audit logs retained?","reference_answer":"Seven years.","relevant_chunk_ids":["replace-with-indexed-chunk-id"],"answerable":true,"required_roles":["compliance"],"category":"single-document-factual"}
+{"question":"What is the CEO's favorite planet?","reference_answer":null,"relevant_chunk_ids":[],"answerable":false,"required_roles":["reader"],"category":"unanswerable"}
+

@@ -1,0 +1,164 @@
+{
+  "sources": [
+    {
+      "name": "FAA Unmanned Aircraft Systems",
+      "url": "https://www.faa.gov/uas",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "regulatory-hub",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 168,
+      "metadata": {"jurisdiction": "US-Federal", "category": "regulation", "chunk_size": 500, "chunk_overlap": 75}
+    },
+    {
+      "name": "FAA Commercial Operators",
+      "url": "https://www.faa.gov/uas/commercial_operators",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "regulatory-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 168,
+      "metadata": {"jurisdiction": "US-Federal", "category": "part-107"}
+    },
+    {
+      "name": "FAA Remote Identification of Drones",
+      "url": "https://www.faa.gov/uas/getting_started/remote_id",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "regulatory-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 168,
+      "metadata": {"jurisdiction": "US-Federal", "category": "remote-id"}
+    },
+    {
+      "name": "FAA Remote ID Industry Guidance",
+      "url": "https://www.faa.gov/uas/getting_started/remote_id/industry",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "industry-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 336,
+      "metadata": {"jurisdiction": "US-Federal", "category": "remote-id"}
+    },
+    {
+      "name": "FAA Part 107 Overview",
+      "url": "https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "regulatory-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 336,
+      "metadata": {"jurisdiction": "US-Federal", "category": "part-107"}
+    },
+    {
+      "name": "FAA Operations Over People",
+      "url": "https://www.faa.gov/uas/commercial_operators/operations_over_people",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "regulatory-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 336,
+      "metadata": {"jurisdiction": "US-Federal", "category": "operations-over-people"}
+    },
+    {
+      "name": "FAA Beyond Visual Line of Sight",
+      "url": "https://www.faa.gov/uas/advanced_operations/beyond_visual_line_of_sight",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "advanced-operations-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 336,
+      "metadata": {"jurisdiction": "US-Federal", "category": "bvlos"}
+    },
+    {
+      "name": "FAA UAS Data Exchange LAANC",
+      "url": "https://www.faa.gov/uas/getting_started/laanc",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "airspace-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 336,
+      "metadata": {"jurisdiction": "US-Federal", "category": "airspace"}
+    },
+    {
+      "name": "FAA UAS Declaration of Compliance",
+      "url": "https://uasdoc.faa.gov/listDocs?docType=rid",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "compliance-registry",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 168,
+      "metadata": {"jurisdiction": "US-Federal", "category": "aircraft-compliance"}
+    },
+    {
+      "name": "FAA Operations Over People Declarations",
+      "url": "https://uasdoc.faa.gov/listDocs?docType=oop",
+      "publisher": "Federal Aviation Administration",
+      "authority_tier": "A",
+      "document_type": "compliance-registry",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 168,
+      "metadata": {"jurisdiction": "US-Federal", "category": "aircraft-compliance"}
+    },
+    {
+      "name": "NASA UAS Traffic Management",
+      "url": "https://www.nasa.gov/ames/utm/",
+      "publisher": "National Aeronautics and Space Administration",
+      "authority_tier": "A",
+      "document_type": "research-program",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 720,
+      "metadata": {"jurisdiction": "US-Federal", "category": "utm"}
+    },
+    {
+      "name": "NASA Technical Reports Server",
+      "url": "https://ntrs.nasa.gov/",
+      "publisher": "National Aeronautics and Space Administration",
+      "authority_tier": "A",
+      "document_type": "research-index",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 720,
+      "metadata": {"jurisdiction": "US-Federal", "category": "research"}
+    },
+    {
+      "name": "NIST Cybersecurity Framework",
+      "url": "https://www.nist.gov/cyberframework",
+      "publisher": "National Institute of Standards and Technology",
+      "authority_tier": "A",
+      "document_type": "cybersecurity-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 720,
+      "metadata": {"jurisdiction": "US-Federal", "category": "cybersecurity"}
+    },
+    {
+      "name": "CISA Cybersecurity Best Practices",
+      "url": "https://www.cisa.gov/topics/cybersecurity-best-practices",
+      "publisher": "Cybersecurity and Infrastructure Security Agency",
+      "authority_tier": "A",
+      "document_type": "cybersecurity-guidance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 720,
+      "metadata": {"jurisdiction": "US-Federal", "category": "cybersecurity"}
+    },
+    {
+      "name": "NTSB Aviation Investigation Search",
+      "url": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "publisher": "National Transportation Safety Board",
+      "authority_tier": "A",
+      "document_type": "safety-investigation-index",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 720,
+      "metadata": {"jurisdiction": "US-Federal", "category": "safety"}
+    },
+    {
+      "name": "FCC Equipment Authorization",
+      "url": "https://www.fcc.gov/engineering-technology/laboratory-division/general/equipment-authorization",
+      "publisher": "Federal Communications Commission",
+      "authority_tier": "A",
+      "document_type": "communications-compliance",
+      "allowed_roles": ["reader"],
+      "refresh_interval_hours": 720,
+      "metadata": {"jurisdiction": "US-Federal", "category": "radio-compliance"}
+    }
+  ]
+}
